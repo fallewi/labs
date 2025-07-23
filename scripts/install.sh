@@ -12,15 +12,22 @@ NC='\033[0m' # No Color
 # ASCII Art and Description
 print_header() {
     echo -e "${BLUE}"
-    echo "░█████╗░██╗░░██╗░░░░░░██╗░░██╗  ░██████╗██╗███╗░░░███╗██╗░░░██╗██╗░░░░░░█████╗░████████╗░█████╗░██████╗░"
-    echo "██╔══██╗██║░██╔╝░░░░░░╚██╗██╔╝  ██╔════╝██║████╗░████║██║░░░██║██║░░░░░██╔══██╗╚══██╔══╝██╔══██╗██╔══██╗"
-    echo "██║░░╚═╝█████═╝░█████╗░╚███╔╝░  ╚█████╗░██║██╔████╔██║██║░░░██║██║░░░░░███████║░░░██║░░░██║░░██║██████╔╝" 
-    echo "██║░░██╗██╔═██╗░╚════╝░██╔██╗░  ░╚═══██╗██║██║╚██╔╝██║██║░░░██║██║░░░░░██╔══██║░░░██║░░░██║░░██║██╔══██╗"
-    echo "╚█████╔╝██║░╚██╗░░░░░░██╔╝╚██╗  ██████╔╝██║██║░╚═╝░██║╚██████╔╝███████╗██║░░██║░░░██║░░░╚█████╔╝██║░░██║"
-    echo "░╚════╝░╚═╝░░╚═╝░░░░░░╚═╝░░╚═╝  ╚═════╝░╚═╝╚═╝░░░░░╚═╝░╚═════╝░╚══════╝╚═╝░░╚═╝░░░╚═╝░░░░╚════╝░╚═╝░░╚═╝"
+  ____        _        _                  _                  _        
+ |  _ \  __ _| |_ __ _| |__   ___  _ __  | |    ___  ___  __| | ___   
+ | | | |/ _` | __/ _` | '_ \ / _ \| '__| | |   / _ \/ _ \/ _` |/ _ \  
+ | |_| | (_| | || (_| | | | | (_) | |    | |__|  __/  __/ (_| | (_) | 
+ |____/ \__,_|\__\__,_|_| |_|\___/|_|    |_____\___|\___|\__,_|\___/  
+                                                                     
+  _  __     _                               _           _       
+ | |/ /__ _| |__   ___  _ __ ___   ___   __| | ___  ___| |_ ___ 
+ | ' // _` | '_ \ / _ \| '_ ` _ \ / _ \ / _` |/ _ \/ __| __/ __|
+ | . \ (_| | | | | (_) | | | | | | (_) | (_| |  __/\__ \ |_\__ \
+ |_|\_\__,_|_| |_|\___/|_| |_| |_|\___/ \__,_|\___||___/\__|___/
+                                                                
+
     echo -e "${NC}"
     echo -e "${CYAN}==============================================================${NC}"
-    echo -e "${CYAN}CK-X Simulator: Kubernetes Certification Exam Simulator${NC}"
+    echo -e "${CYAN}Datascientest Kubernetes Labs: Kubernetes Certification Exam Simulator${NC}"
     echo -e "${CYAN}Practice in a realistic environment for CKA, CKAD, and more${NC}"
     echo -e "${CYAN}==============================================================${NC}"
     echo -e "${CYAN} Facing any issues? Please report at: https://github.com/nishanb/CK-X/issues${NC}"
@@ -210,7 +217,7 @@ main() {
     
     echo -e "\n${BLUE}Installation Complete!${NC}"
     echo -e "${CYAN}==============================================================${NC}"
-    echo -e "${GREEN}✓ CK-X Simulator has been installed successfully${NC}"
+    echo -e "${GREEN}✓ Datascientest Kubernetes Labs has been installed successfully${NC}"
     
     # Wait a bit for the service to be fully ready
     sleep 5
@@ -220,14 +227,14 @@ main() {
     
     echo -e "\n${BLUE}Useful Commands${NC}"
     echo -e "${CYAN}==============================================================${NC}"
-    echo -e "${YELLOW}CK-X Simulator has been installed in:${NC} ${GREEN}$(pwd)${NC}, run all below commands from this directory"
+    echo -e "${YELLOW}Datascientest Kubernetes Labs has been installed in:${NC} ${GREEN}$(pwd)${NC}, run all below commands from this directory"
     echo -e "${YELLOW}To stop CK-X  ${GREEN}docker compose down --volumes --remove-orphans --rmi all${NC}"
     echo -e "${YELLOW}To Restart CK-X:${NC} ${GREEN}docker compose restart${NC}"
     echo -e "${YELLOW}To clean up all containers and images:${NC} ${GREEN}docker system prune -a${NC}"
     echo -e "${YELLOW}To remove only CK-X images:${NC} ${GREEN}docker compose down --rmi all${NC}"
-    echo -e "${YELLOW}To access CK-X Simulator:${NC} ${GREEN}https://play.sailor.sh/${NC}"
+    echo -e "${YELLOW}To access Datascientest Kubernetes Labs:${NC} ${GREEN}https://play.sailor.sh/${NC}"
     echo
-    echo -e "${CYAN}Thank you for installing CK-X Simulator!${NC}"
+    echo -e "${CYAN}Thank you for installing Datascientest Kubernetes Labs!${NC}"
 }
 
 # Run main function
